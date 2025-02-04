@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+.nav-bar .nav-bar-a {
+  margin-left: 80px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-right: 300px;
+}
+
+/************ navbar end  ***************/
+
+/************ Page 1 start  ***************/
+
+/* 
+.imagee{
+    height: 900px;
+    border: 2px solid red;
+    overflow: hidden;
+
+}
+
+
+.big-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ */
+
+.main-div {
+  background-image: url(./img/big_image_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+}
+
+.form1 {
+  background-color: white;
+}
+
+.form1 .keyword-input {
+  outline: none;
+  border: none;
+  border-right: 1px solid rgb(230, 227, 227);
+  padding: 10px;
+  border-radius: 0;
+  width: 250px;
+}
+
+.sections {
+  width: 920px;
+}
+
+.sections .select-left {
+  border-right: 1px solid rgb(230, 227, 227);
+}
+
+.sections select {
+  border: none;
+  width: 250px;
+  color: gray;
+}
+
+.sections button {
+  border-radius: 2px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 5px;
+}
+
+.sections .search-btn {
+  margin-left: 10px;
+}
+
+.search-bar {
+  background-color: white;
+}
+
+/************ Page 1 end  ***************/
+
+/************ Page 2 start  ***************/
+
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+}
+
+.welcome h1 {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.welcome p {
+  width: 500px;
+  margin-bottom: 50px;
+  color: gray;
+}
+
+.welcome button {
+  padding: 10px;
+  color: white;
+}
+
+.welcome-img {
+  padding-top: 60px;
+}
+
+.row2 {
+  padding-top: 50px;
+  height: 400px;
+}
+
+.row2 i {
+  font-size: 50px;
+  color: gray;
+}
+
+.row2 h1 {
+    margin-top: 20px;
+  font-size: 20px;
+}
+
+.row2 p {
+  font-size: 16px;
+  color: gray;
+}
+
+.row2 a {
+  font-size: 14px;
+  color: #3eafd4;
+  text-decoration: none;
+}
+
+
+
+/************ Page 2 end  ***************/
+
+/************ Page 3 start  ***************/
+
+.page3{
+
+}
+
+.pg3-img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.page3 img{
+    width: 80%;
+}
+
+
+.pg3-text{
+    padding-top: 50px;
+}
+
+.pg3-text h1{
+}
+
+.pg3-text .para{
+    color: gray;
+    width: 500px;
+}
+
+.students-num{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+
+}
+
+.container-st{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.students-num i{
+    display: flex;
+    margin-right: 10px;
+}
+
+.students-num p{
+    display: flex;
+    flex-direction: column;
+}
+
+/************ Page 3 end  ***************/
+
+
+
+
+
+/************ Page 4 start  ***************/
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.pg4-col p{
+    color: gray;
+    width: 600px;
+    border: 2px solid red;
+}
+
+
+
+
+/************ Page 4 end  ***************/
