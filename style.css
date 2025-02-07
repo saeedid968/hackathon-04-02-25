@@ -1,0 +1,759 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+
+
+
+/************ Navbar Start ***************/
+
+
+.nav-div {
+    padding: 20px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.login-register a {
+    color: #11CBD7;
+}
+
+
+/************ Navbar end ***************/
+
+
+
+
+
+
+
+
+
+
+
+/************ Front Page Start ***************/
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('./img/big_image_2.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+}
+
+.content h1 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    padding: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 0;
+    max-width: 750px;
+    margin: 0 auto;
+    gap: 10px;
+    justify-content: center;
+}
+
+.search-box input,
+.search-box select {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+    color: #898989;
+}
+
+
+.search-box #difficulty {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 0;
+    font-size: 14px;
+    width: 100%;
+    outline: none;
+    color: #898989;
+}
+
+
+.search-box button {
+    padding: 14px 24px;
+    background: #11CBD7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.content p {
+    margin-top: 17px;
+    font-size: 14px;
+    color: rgb(231, 227, 227);
+}
+
+.register-btn {
+    margin-top: 20px;
+    padding: 14px 24px;
+    background: #11CBD7;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: #11CBD7;
+
+}
+
+.register-btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #11CBD7;
+
+}
+
+@media (max-width: 768px) {
+    .search-box {
+        flex-direction: column;
+    }
+
+    .search-box input,
+    .search-box select,
+    .search-box button {
+        width: 100%;
+    }
+
+    .content h1 {
+        font-size: 26px;
+    }
+
+    .register-btn {
+        width: 100%;
+    }
+}
+
+
+/************ front page end  ***************/
+
+
+
+
+
+
+
+
+
+/************ Page 1 start  ***************/
+
+
+.section-1 {
+    padding: 5em 0;
+}
+
+.page-1-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.page-1-heading {
+    max-width: 400px;
+    margin-bottom: 20px;
+    color: #11CBD7;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.page-1-text {
+    max-width: 450px;
+    color: #898989;
+}
+
+.btn.btn-primary {
+    color: white;
+    border: 2px solid transparent;
+    background-color: #11CBD7;
+}
+
+.page-1-col .btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #11CBD7;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .page-1-col {
+        text-align: center;
+        align-items: center;
+    }
+
+    .page-1-heading {
+        font-size: 32px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/************ Page 1 end  ***************/
+
+
+
+
+
+
+
+
+
+
+/************ Page 2 start  ***************/
+
+
+.col-lg-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.icon .fa-solid {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #898989;
+}
+
+.block-6 .media-body .heading {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.block-6 .media-body p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: #898989;
+}
+
+.more {
+    position: relative;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-decoration: none;
+    color: #11CBD7;
+}
+
+
+.more:hover {
+    color: rgb(88, 82, 82);
+    text-decoration: none;
+}
+
+/************ Page 2 end  ***************/
+
+
+
+
+
+
+
+
+
+
+
+/************ Page 3 start  ***************/
+
+
+.section-3 {
+    padding: 5em 0;
+    background-color: #F8F9FA;
+}
+
+.page-3-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.block-15 {
+    text-align: left;
+}
+
+.block-15 .heading {
+    max-width: 400px;
+    margin-bottom: 20px;
+    color: #11CBD7;
+}
+
+.block-15 p {
+    color: #898989;
+    font-size: 14px;
+}
+
+.text {
+    color: #898989;
+}
+
+.page-3-row i {
+    color: #898989;
+    font-size: 30px;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.mr-4 {
+    margin-right: 1.5rem !important;
+}
+
+.block-18 .text span {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #11cbd7;
+}
+
+.block-18 .text label {
+    font-size: 12px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    display: block;
+    color: #ccc;
+}
+
+
+/************ Page 3 end  ***************/
+
+
+
+
+
+
+
+
+
+/************ Page 4 start  ***************/
+
+
+.section-3 {
+    padding: 20px;
+}
+
+.page-3-col {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.page-3-col h2 {
+    color: #11CBD7;
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+.page-3-col p {
+    max-width: 500px;
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #898989;
+    margin: 0 auto;
+}
+
+
+.page-3-col .btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #11CBD7;
+}
+
+.card-body .card-text {
+    color: #898989;
+    line-height: 25px;
+    margin: 15px 0;
+}
+
+
+.card-body .price-btn .free {
+    text-decoration: line-through;
+    color: #898989;
+    font-size: 14px;
+}
+
+
+
+
+.card-body p {
+    margin: 0;
+    padding: 0;
+    color: #11CBD7;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.price-btn>.btn:hover {
+    background-color: #11CBD7;
+    border: none;
+}
+
+.card {
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100% !important;
+    }
+
+    .page-3-col h2 {
+        font-size: 32px;
+    }
+
+    .price-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+/************ Page 4 end  ***************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************ Page 5 start  ***************/
+
+
+
+.section-3 {
+    padding: 20px;
+}
+
+.page-3-col {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.page-3-col h2 {
+    color: #11CBD7;
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+
+.page-3-col p {
+    max-width: 500px;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #898989;
+    margin: 0 auto;
+}
+
+
+.page-3-col .btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #11CBD7;
+}
+
+.card-body .card-text {
+    color: #898989;
+    line-height: 25px;
+    margin: 15px 0;
+}
+
+
+.card-body .price-btn .free {
+    text-decoration: line-through;
+    color: #898989;
+}
+
+
+
+
+.card-body p {
+    margin: 0;
+    padding: 0;
+    color: #11CBD7;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.price-btn>.btn:hover {
+    background-color: #11CBD7;
+    border: none;
+}
+
+.card {
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 100% !important;
+    }
+
+    .page-3-col h2 {
+        font-size: 32px;
+    }
+
+    .price-btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+
+/************ Page 5 end  ***************/
+
+
+
+
+
+
+
+
+
+
+
+/************ Page 6 start  ***************/
+
+
+
+.section-3 .page-6-row h3 a {
+    font-size: 14px;
+}
+
+
+.small-card-right {
+    border-radius: 8px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    transition: transform 0.5s ease;
+    background-color: transparent;
+    border: 2px solid red;
+}
+
+.small-card-right img {
+    max-width: 200px;
+    max-height: 90px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.small-card-right-content {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+.small-card-right h6 {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.small-card-right .date {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.page-6-col .small-card-span div,
+i,.admin {
+    font-size: 12px;
+    color: #6c757d;
+}
+
+.page-6-col .small-card-span div,
+i,.admin2 {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+
+.small-card-right:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+    .small-card-right {
+        border-radius: 8px;
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 1rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        transition: transform 0.5s ease;
+        background-color: transparent;
+        border: 2px solid red;
+    }
+    
+    .small-card-right img {
+        max-width: 200px;
+        max-height: 90px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+        border-radius: 8px 0 0 8px;
+    }
+    
+    .small-card-right-content {
+        flex: 1;
+        padding: 0.5rem;
+    }
+    
+    .small-card-right h6 {
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+        font-weight: 400;
+        line-height: 23px;
+    }
+    
+    .small-card-right .date {
+        font-size: 0.8rem;
+        color: #6c757d;
+    }
+    
+    .page-6-col .small-card-span div,
+    i,
+    span {
+        font-size: 8px;
+        color: #6c757d;
+    }
+    
+    
+    .small-card-right:hover {
+        transform: scale(1.03);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    
+}
+
+
+/************ Page 6 end  ***************/
